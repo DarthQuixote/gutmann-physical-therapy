@@ -14,8 +14,8 @@ export default function About() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 backdrop-blur-md bg-white/80 p-6 rounded-xl border border-gray-200 shadow-xl max-w-xs">
-              <p className="text-sm font-semibold text-gray-900">Completed Full Ironman</p>
-              <p className="text-xs text-gray-600 mt-1">Half-Ironman Complete | Mt. Rainier Hiker</p>
+              <p className="text-sm font-semibold text-gray-900">Ironman Sacramento Finisher</p>
+              <p className="text-xs text-gray-600 mt-1">Half-Ironman North Carolina Finisher | Summited Mt. Rainier</p>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ export default function About() {
                   The Roots
                 </h3>
                 <p className="leading-relaxed">
-                  Born and raised in Washington State, deeply connected to the Pacific Northwest outdoor lifestyle.
+                  Born and raised in Washington State, deeply connected to the Pacific Northwest and the beauty it provides.
                 </p>
               </div>
 
@@ -41,9 +41,9 @@ export default function About() {
                   The Academics
                 </h3>
                 <p className="leading-relaxed">
-                  <strong>B.S. in Physiology</strong> from University of Arizona
+                  <strong>B.S. in Anatomy and Physiology</strong> from The University of Arizona
                   <br />
-                  <strong>Doctor of Physical Therapy</strong> from High Point University, NC
+                  <strong>Doctor of Physical Therapy</strong> from High Point University
                 </p>
               </div>
 
@@ -59,11 +59,11 @@ export default function About() {
                 <div className="flex flex-wrap gap-2 mt-4">
                   <div className="backdrop-blur-md bg-[#AAF0D1]/20 px-3 py-1.5 rounded-full border border-[#AAF0D1]/40 flex items-center gap-2">
                     <Bike className="w-4 h-4 text-[#AAF0D1]" />
-                    <span className="text-sm font-medium text-gray-900">Bike Fitting Certified</span>
+                    <span className="text-sm font-medium text-gray-900">TPI Level 1 Certification, Medical Level 2, and Golf Level 2</span>
                   </div>
                   <div className="backdrop-blur-md bg-[#AAF0D1]/20 px-3 py-1.5 rounded-full border border-[#AAF0D1]/40 flex items-center gap-2">
                     <Award className="w-4 h-4 text-[#AAF0D1]" />
-                    <span className="text-sm font-medium text-gray-900">TPI Level 1</span>
+                    <span className="text-sm font-medium text-gray-900">Certified Bike Fits</span>
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function About() {
                   The Athlete (Walking the Walk)
                 </h3>
                 <p className="leading-relaxed">
-                  Recently finished a Full Ironman. Avid golfer, hiker, and outdoor enthusiast who understands the demands of performance from personal experience.
+                  An avid golfer who strives to understand the biomechanical stresses and performance attributes that generates success on the course as well as the ability to prevent injuries. An Ironman and outdoor enthusiast who knows what builidng a successful workout regiment to succeed in any activity you might participate in.
                 </p>
               </div>
             </div>
