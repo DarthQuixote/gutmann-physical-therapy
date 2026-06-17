@@ -128,7 +128,7 @@ const athleteDetails: Record<string, AthleteDetail> = {
     bike: {
         id: "bike",
         title: "BIKE",
-        goal: "Optimize Position & Unlock More Power",
+        goal: "Optimize Your Position & Unlock the Power Within",
         credentials:
             "Professional bike fitting combined with PT expertise for comfort and performance.",
         imageUrl:
@@ -139,7 +139,7 @@ const athleteDetails: Record<string, AthleteDetail> = {
             "Professional bike fitting optimized to your body",
             "Improved power transfer and efficiency",
             "Eliminated neck, shoulder, and knee pain",
-            "Enhanced aerobic capacity",
+            "Enhance V02 Max",
             "Customized training protocols",
         ],
         services: [
@@ -156,7 +156,7 @@ const athleteDetails: Record<string, AthleteDetail> = {
             {
                 name: "Power Development Training",
                 description:
-                    "Build the glute and quad strength necessary for efficient pedaling and climbing.",
+                    "Build the glute and quadricep strength necessary for efficient pedaling and climbing.",
             },
             {
                 name: "Overuse Injury Prevention",
@@ -165,9 +165,9 @@ const athleteDetails: Record<string, AthleteDetail> = {
             },
         ],
         commonIssues: [
-            "Knee pain from poor fit",
+            "Knee pain",
             "Neck and shoulder tension",
-            "Lower back discomfort",
+            "Saddle Numbness",
             "Power loss from inefficient position",
             "Overuse injuries from repetitive stress",
         ],
