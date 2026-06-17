@@ -24,53 +24,53 @@ const athleteDetails: Record<string, AthleteDetail> = {
     golf: {
         id: "golf",
         title: "GOLF",
-        goal: "Increase Clubhead Speed & Protect Your L5-S1",
+        goal: "Increase Clubhead Speed & Protect your low back",
         credentials:
-            "TPI-certified biomechanics meets CSCS power development for injury-free distance.",
+            "Combining biomechanical analysis, TPI-certification, and CSCS strength and power priciples to help you gain distance while protecting your body.",
         imageUrl:
             "https://images.pexels.com/photos/1409006/pexels-photo-1409006.jpeg?auto=compress&cs=tinysrgb&w=800",
         description:
-            "Golf demands precision, power, and stability. Our specialized golf performance program combines thorough biomechanical analysis with targeted strength training to maximize your swing while protecting your spine.",
+            "Golf demands precision, power, and stability. Our specialized golf performance program combines thorough biomechanical analysis with targeted strength training to maximize your swing potential.",
         keyBenefits: [
-            "Increased clubhead speed (5-15+ mph improvements documented)",
-            "Reduced back pain and L5-S1 stress",
+            "Measuring specific performance factors to track progresss",
+            "Increase ball and clubhead speed (5-15+ mph chagnes)",
             "Enhanced rotation and flexibility",
             "Improved consistency and accuracy",
-            "Injury prevention for long-term play",
+            "Decreased fatigue to proceed to the next round",
         ],
         services: [
             {
-                name: "Golf Swing Biomechanics Assessment",
+                name: "Biomechanical Swing Assessment",
                 description:
                     "Video analysis of your swing to identify movement dysfunctions limiting power or causing injury risk.",
             },
             {
-                name: "TPI-Based Power Development",
+                name: "TPI Assessment",
                 description:
-                    "Targeted exercises improving hip mobility, thoracic rotation, and core stability specific to the golf swing.",
+                    "There are an infinite number of ways to swing a golf club. However, there is one most-efficient way for each player to swing a club and it is based on what they can physically do.",
             },
             {
-                name: "Spinal Protection Program",
+                name: "Injury Prevention",
                 description:
-                    "Strengthen and stabilize the L5-S1 joint to prevent injury and increase load tolerance.",
+                    "Identification of harmful swing patterns and make changes to prevent and restore proper function.",
             },
             {
                 name: "Sport-Specific Conditioning",
                 description:
-                    "Endurance, explosive power, and stability training designed for 18-hole performance.",
+                    "Endurance, explosive power, and stability training designed for 18-hole performance over the course of a weekend.",
             },
         ],
         commonIssues: [
-            "Low back pain (L5-S1 strain)",
-            "Limited hip rotation",
-            "Poor thoracic mobility",
-            "Weak core stability",
-            "Shoulder mobility restrictions",
+            "Low back pain",
+            "Power blocks or leaks leading to poor distance",
+            "Poor thoracic rotation",
+            "Limited ground force production",
+            "Swing Efficency",
         ],
         testimonial: {
             quote:
-                "After working with the team, my swing speed increased by 12 mph and my back pain completely disappeared. I'm confident playing 36 holes without discomfort.",
-            author: "Mike H., Scratch Golfer",
+                "After working with the team, my stock yardages increased by 15 yards and I felt much more confident and stable swing all of my clubs. I am able to play a full weekend of golf without any of the fatigue I used to have.",
+            author: "Tucker M., HC 6.3",
         },
     },
     run: {
