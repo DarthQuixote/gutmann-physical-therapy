@@ -1,20 +1,22 @@
+import tridentLogo from '../assets/trident-logo.png';
+
 interface HeroProps {
   name: string;
 }
 
 export default function Hero({ name }: HeroProps) {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&w=1920')",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/30" />
+    <section className="relative h-screen w-full overflow-hidden bg-gradient-to-br from-slate-900 to-slate-800 flex items-center justify-center">
+      {/* Trident Logo Background */}
+      <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <img 
+          src={tridentLogo} 
+          alt="Trident" 
+          className="w-96 h-96 object-contain"
+        />
       </div>
 
-      <nav className="relative z-20 flex items-center justify-between px-8 py-6">
+      <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-6">
         <div className="flex items-center gap-3">
           <div className="backdrop-blur-md bg-white/10 px-4 py-2 rounded-full border border-white/20">
             <span className="text-white font-semibold tracking-wide">Gutmann Physical Therapy</span>
